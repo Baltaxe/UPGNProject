@@ -1,6 +1,6 @@
 node {
     stage('Clone code') {
-        git ''
+        git 'https://github.com/Baltaxe/UPGNProject.git'
     }
 
     stage('Run tests'){
